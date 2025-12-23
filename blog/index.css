@@ -1,0 +1,97 @@
+body {
+  background: #fffed0;
+  color: #1f1f1f;
+  font-family: system-ui, sans-serif;
+}
+
+.back-link {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 32px auto;   /* center + spacing */
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid rgba(0,0,0,0.25);
+  border-radius: 999px;      /* pill shape */
+  transition: all 0.2s ease;
+}
+
+.back-link:hover {
+  background: rgba(0,0,0,0.05);
+  text-decoration: none;
+}
+
+
+/* Code blocks */
+pre {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #022e48;
+        display: block;
+    background: #b9b9b9;
+    padding: 6px;
+    margin-top: 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+/* Architecture boxes */
+.architecture-box {
+  background: #f5f5f5;
+  border: 1px dashed #999;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.architecture-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Sidebar */
+.sidebar {
+  border-left: 1px solid rgba(0,0,0,0.1);
+}
+
+.sidebar-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-links li {
+  margin-bottom: 10px;
+}
+
+.sidebar-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.sidebar-heading {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.active-blog {
+  border-left: 3px solid rgba(0,0,0,0.2);
+  padding-left: 8px;
+  font-weight: 600;
+}
+
+.blog-subitem {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Screenshots */
+.screenshot-img {
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 4px;
+}
